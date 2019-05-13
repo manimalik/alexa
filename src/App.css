@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/*.Polaris-Modal-Dialog__Modal {
+  max-width: 40rem !important;
+}*/
+.Heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+#BtnTextStyle {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6371c7), to(#5563c1));
+    background: linear-gradient(to bottom, #6371c7, #5563c1);
+    border-color: #3f4eae;
+    -webkit-box-shadow: inset 0 1px 0 0 #6f7bcb;
+    box-shadow: inset 0 1px 0 0 #6f7bcb;
+    color: white;
+}
+
+#BtnAudioStyle {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6371c7), to(#5563c1));
+    background: linear-gradient(to bottom, #6371c7, #5563c1);
+    border-color: #3f4eae;
+    -webkit-box-shadow: inset 0 1px 0 0 #6f7bcb;
+    box-shadow: inset 0 1px 0 0 #6f7bcb;
+    color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.Polaris-Icon {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+.Savetext {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 !important;
+  padding-left: 6px;
+  color: #50B83C;
+  font-weight: 700;
+}
+.errortext {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 !important;
+  padding-left: 10px;
+  color: #de3618;
+  font-weight: 700;
+}
+.orange {
+  background-color : orange !important;
+}
+.red {
+  background-color : red !important;
+}
+.green {
+  background-color : green !important;
+}
+.Polaris-Modal-Dialog__Modal {
+  max-width: 37rem !important;
+}
+.Polaris-Heading {
+  font-size: 2rem !important;
+  padding-bottom: 5px;
+}
+.Polaris-Banner .Polaris-Heading {
+  text-align: left;
+}
+.Polaris-Subheading {
+    margin-bottom: 15px !important;
+    color: #5c6ac4;
+}
+.Polaris-Stack--alignmentCenter {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
